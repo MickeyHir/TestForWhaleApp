@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\FollowerCamera.cs" />
+     <Compile Include="Assets\GameMaster.cs" />
      <Compile Include="Assets\Scripts\BallParent.cs" />
      <Compile Include="Assets\Scripts\Log.cs" />
     <Reference Include="UnityEngine">
