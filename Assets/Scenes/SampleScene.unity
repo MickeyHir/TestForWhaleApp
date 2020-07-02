@@ -1246,6 +1246,7 @@ MonoBehaviour:
   explosionPrefab: {fileID: 1213551197743173710, guid: 32981a2a55e939b4fa05bf13dc18a929,
     type: 3}
   gameMaster: {fileID: 1433135906}
+  delayTime: 10
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2538,7 +2539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonCanvas: {fileID: 1378416224}
-  timeToRestart: 2
+  timeToRestart: 1.5
 --- !u!4 &1433135907
 Transform:
   m_ObjectHideFlags: 0
@@ -2636,8 +2637,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 536270581}
-        m_MethodName: Swing
-        m_Mode: 4
+        m_MethodName: SwingLeft
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2766,8 +2767,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 536270581}
-        m_MethodName: Swing
-        m_Mode: 4
+        m_MethodName: SwingRight
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
