@@ -640,8 +640,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -778,7 +778,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -787,8 +787,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -907,10 +907,10 @@ RectTransform:
   m_Father: {fileID: 981700068}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 184.39355}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 720, y: -92.19678}
+  m_SizeDelta: {x: 474.26, y: 184.39355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417215335
 MonoBehaviour:
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9e3be2200660c43a01e1e73bf7c319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 500
+  force: 100
   lava: {fileID: 1617763580}
   explosionPrefab: {fileID: 1213551197743173710, guid: 32981a2a55e939b4fa05bf13dc18a929,
     type: 3}
@@ -1449,8 +1449,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -1684,7 +1684,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -1693,8 +1693,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -1874,7 +1874,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -1883,8 +1883,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -2172,7 +2172,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -2181,8 +2181,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -2428,7 +2428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1378416225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,10 +2588,10 @@ RectTransform:
   m_Father: {fileID: 981700068}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 184.39355}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 237.13, y: -92.19678}
+  m_SizeDelta: {x: 474.26, y: 184.39355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1469088350
 MonoBehaviour:
@@ -2718,10 +2718,10 @@ RectTransform:
   m_Father: {fileID: 981700068}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 184.39355}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1202.87, y: -92.19678}
+  m_SizeDelta: {x: 474.26, y: 184.39355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570977466
 MonoBehaviour:
@@ -2866,7 +2866,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -2875,8 +2875,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -2979,7 +2979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1617763581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3012,7 +3012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 320553d4bfe6f1d4cb85a0e8693adf98, type: 2}
+  - {fileID: 2100000, guid: b6264a206f299be408ac16852e25085f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3107,7 +3107,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -3116,8 +3116,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -3787,7 +3787,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 100
-    damper: 0
+    damper: 100
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -3796,8 +3796,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -10
-    max: 10
+    min: -15
+    max: 15
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
