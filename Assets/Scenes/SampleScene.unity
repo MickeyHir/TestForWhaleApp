@@ -1243,8 +1243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 1213551197743173710, guid: 32981a2a55e939b4fa05bf13dc18a929,
     type: 3}
-  force: 100
-  delayTime: 10
+  force: 70
+  delayTime: 5
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,6 +2297,7 @@ MonoBehaviour:
   offsetX: 10
   offsetY: 4
   offsetMultyplier: 2
+  cameraSpeed: 0.3
 --- !u!4 &1171009337
 Transform:
   m_ObjectHideFlags: 0
@@ -2968,6 +2969,7 @@ GameObject:
   - component: {fileID: 1617763583}
   - component: {fileID: 1617763582}
   - component: {fileID: 1617763581}
+  - component: {fileID: 1617763585}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -3050,6 +3052,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1617763585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617763580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1a93095b08b094895897d536b7e83d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetSpeed: 0.01
 --- !u!1 &1682050413
 GameObject:
   m_ObjectHideFlags: 0
