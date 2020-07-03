@@ -1241,11 +1241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9e3be2200660c43a01e1e73bf7c319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 100
-  lava: {fileID: 1617763580}
   explosionPrefab: {fileID: 1213551197743173710, guid: 32981a2a55e939b4fa05bf13dc18a929,
     type: 3}
-  gameMaster: {fileID: 1433135906}
+  force: 100
   delayTime: 10
 --- !u!1 &653260035
 GameObject:
@@ -2296,12 +2294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77b975fe46680814ca1b84536fc8c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball: {fileID: 178323926}
-  log: {fileID: 536270574}
-  offset: 10
-  mainCamera: {fileID: 1687258584}
+  offsetX: 10
+  offsetY: 4
   offsetMultyplier: 2
-  gameMaster: {fileID: 1433135906}
 --- !u!4 &1171009337
 Transform:
   m_ObjectHideFlags: 0

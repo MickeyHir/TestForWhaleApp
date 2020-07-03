@@ -6,18 +6,23 @@ using UnityEngine.UI;
 public class FollowerCamera : MonoBehaviour
 {
     private GameObject target;
-    public GameObject ball;
-    public GameObject log;
-    public float offset;
-    public Camera mainCamera;
+    private GameObject ball;
+    private GameObject log;
+    private Animator mainCameraAnimator;
+    private GameMaster gameMaster;
+    public float offsetX;
+    public float offsetY;
     public float offsetMultyplier;
-    public GameMaster gameMaster;
+    public float cameraSpeed;
     void Start()
     {
+        ball = GameObject.Find("BallParent");
+        log = GameObject.Find("Log");
+        gameMaster = GameObject.Find("GameMaster").GetComponent<GameMaster>();
+        mainCameraAnimator = this.gameObject.GetComponentInChildren<Animator>();
         target = ball;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Forward();
@@ -27,14 +32,14 @@ public class FollowerCamera : MonoBehaviour
             return;
         }
         target = log;
-        mainCamera.GetComponent<Animator>().enabled = false;
+        mainCameraAnimator.enabled = false;
         gameMaster.buttonCanvas.SetActive(true);
     }
     
     private void Forward()
     {
-        Vector3 pos = new Vector3(target.transform.position.x - offset, transform.position.y, target.transform.position.z * offsetMultyplier);
-        transform.position = pos;
+        Vector3 pos = new Vector3(target.transform.position.x - offsetX, target.transform.position.y + offsetY, target.transform.position.z * offsetMultyplier);
+        transform.position = Vector3.Lerp(transform.position, pos, cameraSpeed);
 
         Vector3 dir = target.transform.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);

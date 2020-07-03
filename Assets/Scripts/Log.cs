@@ -1,21 +1,22 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Log : MonoBehaviour
 {
     private Rigidbody rb;
     private HingeJoint hj;
-    public float force;
-    public GameObject lava;
+    private GameObject lava;
+    private GameMaster gameMaster;
     public GameObject explosionPrefab;
-    public GameMaster gameMaster;
+    public float force;
     public float delayTime;
 
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
         hj = this.GetComponent<HingeJoint>();
+        lava = GameObject.Find("Lava");
+        gameMaster = GameObject.Find("GameMaster").GetComponent<GameMaster>();
     }
 
     public void SwingLeft()
